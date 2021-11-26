@@ -1,5 +1,5 @@
-About project:
-  Copying files from remote hosts via ssh to multiple streams, using rsync
+- About project:
+      Copying files from remote hosts via ssh to multiple streams, using rsync
 
 Files:
  - config / config.py - Config file
