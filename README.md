@@ -2,21 +2,20 @@
       Copying files from remote hosts via ssh to multiple streams, using rsync
 ### <b> Files </b>
       config / config.py - Config file
-      path - path to the executable program
-   - log_path - path to the directory with log files
-   - log - the main log file of the program
-   - tmp - path to zabbix monitoring file
-   - host - name of the host with the program
-   - ssh_user - ssh user for working with nodes
-   - ssh_port - port for working via ssh with nodes
-   - node_host - an array of nodes from which we will copy data
-   - node_port - array of node ports
-   - node_master_ip - ip of the master, which we do not touch when copying
-   - resource - an array of resources to copy
-   - pool - zfs pool name
-   - rem_day - the number of zfs snapshots to keep
-   - process_rsync - number of simultaneous rsync processes
-      on the node where the program is running
+            path - path to the executable program
+            log_path - path to the directory with log files
+            log - the main log file of the program
+            tmp - path to zabbix monitoring file
+            host - name of the host with the program
+            ssh_user - ssh user for working with nodes
+            ssh_port - port for working via ssh with nodes
+            node_host - an array of nodes from which we will copy data
+            node_port - array of node ports
+            node_master_ip - ip of the master, which we do not touch when copying
+            resource - an array of resources to copy
+            pool - zfs pool name
+            rem_day - the number of zfs snapshots to keep
+            process_rsync - number of simultaneous rsync processes on the node where the program is running
 
  - zfs / zfs.py - module for working with zfs
    - zfs_snapshot_create - create a snapshot
