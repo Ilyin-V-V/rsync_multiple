@@ -1,9 +1,8 @@
 ### <b> About project </b>
       Copying files from remote hosts via ssh to multiple streams, using rsync
 ### <b> Files </b>
-Files:
- - config / config.py - Config file
-   - path - path to the executable program
+      config / config.py - Config file
+      path - path to the executable program
    - log_path - path to the directory with log files
    - log - the main log file of the program
    - tmp - path to zabbix monitoring file
