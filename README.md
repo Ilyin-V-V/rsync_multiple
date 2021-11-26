@@ -1,6 +1,6 @@
-- About project:
+### <b> About project </b>
       Copying files from remote hosts via ssh to multiple streams, using rsync
-
+### <b> Files </b>
 Files:
  - config / config.py - Config file
    - path - path to the executable program
