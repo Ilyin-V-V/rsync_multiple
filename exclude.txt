@@ -1,0 +1,7 @@
+.cache/google-chrome/Default/*
+.cache/chromium/Default/*
+.cache/thunderbird/*default/*
+.cache/mozilla/*default/*
+.thunderbird/*default/ImapMail/*
+.radixware.org/starter/tmp/*
+.cache/mozilla/firefox/*default/*
